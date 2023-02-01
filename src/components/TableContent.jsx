@@ -41,7 +41,7 @@ const TableContent = () => {
                             <p>{ address.city }</p>
                         </div>
                         <div className='flex justify-end items-center'>
-                            <Link className="btn btn-primary hover:btn-secondary text-white rounded-full capitalize" to={ `/userDetails/${ id }` }>View Details</Link>
+                            <Link className="btn btn-primary hover:btn-secondary text-white rounded-full capitalize" to={ `/details/${ id }` }>View Details</Link>
                         </div>
                     </div>
                 }))
