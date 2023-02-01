@@ -1,9 +1,12 @@
 import React from 'react';
+import HomeBanner from './HomeBanner';
+import TableContent from './TableContent';
 
 const Home = () => {
     return (
         <div>
-            this is home page content
+            <HomeBanner />
+            <TableContent />
         </div>
     );
 };
