@@ -24,9 +24,9 @@ const TableContent = () => {
                 { userDetails.map(((data) => {
                     const { id, name, username, address } = data;
 
-                    return <div className='grid lg:grid-cols-5 sm:grid-flow-row text-left shadow-lg p-10 bg-white rounded-lg'>
+                    return <div className='grid lg:grid-cols-5 gap-5 lg:gap-0 md:gap-0 sm:grid-flow-row text-left shadow-lg p-10 bg-white rounded-lg'>
                         <div className='flex justify-start items-center'>
-                            <h2 className='text-lg font-medium hover:text-primary cursor-pointer transition-all duration-150 ease-in-out'>Hello { username }</h2>
+                            <h2 className='text-lg font-medium hover:text-primary cursor-pointer transition-all duration-150 ease-in-out'>Hello, { username }</h2>
                         </div>
                         <div>
                             <h1 className='text-lg font-medium'>Contact</h1>
